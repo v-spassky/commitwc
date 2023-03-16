@@ -50,6 +50,7 @@ fn main() -> Result<(), io::Error> {
     }
 
     write!(stdout, "\n\r",)?;
+    write!(stdout, "{}", cursor::Show)?;
 
     let echo_cmd = Command::new("echo")
         .arg("-n")
