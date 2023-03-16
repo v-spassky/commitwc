@@ -5,7 +5,7 @@ A CLI tool that helps you keep your commit messages concise so that message leng
 - counts the number of characters in your commit message
 - copies the message to the clipboard
 
-<img title="demo gif" src="assets/demo.gif" style="width:100%; max-width: 100%;">
+<img title="demo gif" src="assets/demo.gif" style="width:100%; max-width: 100%; min-width: 100%;">
 
 ### Installation
 
