@@ -20,13 +20,11 @@ jobs:
   upload-assets:
     strategy:
       matrix:
-        os: [ubuntu-latest, macos-latest, windows-latest]
+        os: [ubuntu-latest, macos-latest]
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v3
       - uses: taiki-e/upload-rust-binary-action@v1
         with:
           bin: commitwc
-          tar: unix
-          zip: windows
           token: ${{ secrets.GITHUB_TOKEN }}
