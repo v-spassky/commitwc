@@ -13,15 +13,22 @@ team's commit message style guide.
     style="width:100% !important; max-width: 100%; min-width: 100%;"
 />
 
+> **Note**
+> Windows is not supported yet.
+
 ### Installation
 
 *Assuming that `~/.local/bin` is in your `$PATH`.*
 
 ##### Via downloading a binary
 
-```bash
-wget https://raw.githubusercontent.com/v-spassky/commitwc/main/bin/commitwc -P ~/.local/bin
-```
+Go to the [releases page](https://github.com/v-spassky/commitwc/releases) and
+grab an archive with the latest binary for your platform if it is available
+there. Then extract the binary to `~/.local/bin`.
+
+> **Note**
+> If there isn't a pre-compiled binary for your platform, the only option is to
+> build from source code.
 
 ##### Via building from source code
 
