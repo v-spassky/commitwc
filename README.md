@@ -14,6 +14,7 @@ team's commit message style guide.
 />
 
 > **Note**
+>
 > Windows is not supported yet.
 
 ### Installation
@@ -27,6 +28,7 @@ grab an archive with the latest binary for your platform if it is available
 there. Then extract the binary to `~/.local/bin`.
 
 > **Note**
+>
 > If there isn't a pre-compiled binary for your platform, the only option is to
 > build from source code.
 
